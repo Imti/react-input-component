@@ -13,6 +13,47 @@
                 margin: 0px;
                 padding: 0px;
            }
+
+           body {
+                background: #4E504F;
+           }
+
+           .title {
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 2em;
+                font-family: helvetica;
+                color: whitesmoke;
+           }
+
+           .input-component {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, 50%);
+                font-family: sans-serif;
+           }
+
+           .label {
+                position: absolute;
+                color: #777;
+                z-index: -1;
+                transition: 0.25s all ease-in-out;
+           }
+
+           .input {
+                border: 0;
+                font-size: 2em;
+                background: transparent;
+                color: #222;
+                transition: 0.25s all ease-in-out;
+           }
+
+           .input:focus {
+                outline: none;
+           }
+
         </style>
     </head>
     <body>

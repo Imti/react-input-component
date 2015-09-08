@@ -2,7 +2,7 @@
   "name": "seed-project",
   "version": "1.0.0",
   "description": "seed for various projects",
-  "browser": "src/index.js",
+  "browser": "src/index.jsx",
   "scripts": {
     "build": "browserify src/index.js -g uglifyify | uglifyjs --screw-ie8 -m -c dead_code,sequences,conditionals,booleans,unused,if_return,join_vars,drop_debugger > public/bundle.js",
     "watch": "watchify src/index.js -d -v -o public/bundle.js",
@@ -36,6 +36,7 @@
   "author": "Imti",
   "license": "MIT",
   "dependencies": {
-    "babelify": "^6.0.1"
+    "babelify": "^6.0.1",
+    "react": "^0.13.3"
   }
 }
