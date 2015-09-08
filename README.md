@@ -1,2 +1,2 @@
-#Seed-Project
-> A seed for various projects
+#React Input Component
+> An input field with animating label built in react.
